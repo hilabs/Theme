@@ -145,7 +145,7 @@ class Theme
      */
     public function getThemePath($theme)
     {
-        return $this->getPath()."/{$theme}/";
+        return $this->getPath()."/{$theme}/views/";
     }
 
     /**
